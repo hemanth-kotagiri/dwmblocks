@@ -6,6 +6,7 @@ static const Block blocks[] = {
 	{"🔊 ", "volume",					                                1,		0},
 	{"🌡️ ", "temperature",				                            	5,		0},
 	{"📅", "date '+%A %d-%m-%y | ⌛%I:%M:%S %p'",		         			1,		0},
+	{" ", "diskusage",		         			60,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
